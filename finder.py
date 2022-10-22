@@ -1,9 +1,6 @@
 import cv2
-img1 = cv2.imread("images/gorsel1.jpg")
-img2 = cv2.imread("images/gorsel2.jpg")
-
-#img1 = cv2.resize(img1, (400,400))
-#img2 = cv2.resize(img2, (400,400))
+img1 = cv2.imread("images/1.jpg")
+img2 = cv2.imread("images/2.jpg")
 
 diff = cv2.subtract(img1, img2)
 
